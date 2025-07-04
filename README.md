@@ -1,15 +1,13 @@
+---
 
-Q1. En que organismo o grupo de organismo vas a trabajar ?
-Rhynchonycteris naso
+# Phylogenetic tree of *Rhynchonycteris naso*
+This study proposes an integrative phylogenetic analysis of the genus *Rhynchonycteris*, as recommended by Lim et al. (2008). This approach aims to examine intraspecific variation and population structure, thereby contributing substantially to understanding the evolutionary history, biogeography, and conservation of Emballonuridae bats within the context of Neotropical biodiversity
 
-Q2. Brevemente describe que piensas hacer en tu proyecto?
-Voy a realizar un análisis de barcoding utilizando un archivo en formato .pod5, que contiene secuencias obtenidas de muestras de Rhynchonycteris naso. Primero, llevaré a cabo el basecalling para convertir las señales crudas en secuencias de nucleótidos y generar una secuencia consenso a partir de todo lo secuenciado. Posteriormente, realizaré una limpieza de las secuencias para depurar la librería y asegurar su calidad. Estas secuencias serán integradas con otras disponibles en NCBI correspondientes a diferentes especímenes de Rhynchonycteris naso. Finalmente, empleando secuencias de Cyttarops alecto como grupo externo, construiré una filogenia para analizar las relaciones evolutivas dentro del grupo.
 
-Q3. Que programas voy a usar en mi proyecto.
-Dorado
-Muscle
-Iqtree
-Figtree 
 
-Q4. Sube una foto que represente tu organismo o grupo de organismo.
-https://www.flickr.com/photos/globalwildlife/27439225885/in/photostream/
+---
+
+## MATERIALS AND METHODS
+
+An integrative phylogenetic approach was employed to reconstruct the evolutionary relationships among species within the studied group by combining mitochondrial and nuclear gene sequences alongside robust statistical methods. Mitochondrial gene sequences (COI and Cytb) and nuclear gene sequences (Chd1, Dby, and Usp9x) corresponding to *Rhynchonycteris naso* and the outgroup *Cyttarops alecto* were retrieved from the NCBI database using the EDirect toolkit in FASTA format. To ensure data consistency and minimize errors during analysis, all sequences were manually curated to standardize taxonomic
+nomenclature. Multiple sequence alignment was then performed using MUSCLE v3.8.31, optimizing the identification of homologous regions across samples
