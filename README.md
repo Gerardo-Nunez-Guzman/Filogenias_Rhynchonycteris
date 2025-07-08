@@ -1,13 +1,13 @@
----
+Integrative Phylogenetic
+==============
+Geardo Núñez-Guzmán
+16/07/2025
 
-# Phylogenetic tree of *Rhynchonycteris naso*
-This study proposes an integrative phylogenetic analysis of the genus *Rhynchonycteris*, as recommended by Lim et al. (2008). This approach aims to examine intraspecific variation and population structure, thereby contributing substantially to understanding the evolutionary history, biogeography, and conservation of Emballonuridae bats within the context of Neotropical biodiversity
+In this guide, I'll show you how to perform an integrative phylogenetic analysis from sequences present in the [National Center for Biotechnology Information (NCBI)](https://www.ncbi.nlm.nih.gov/) from a supercomputer using Shell as a language. There are lots of ways to do this kind of analysis, but some of them can feel a bit tedious because you need to use different programs and files, and you have to work on them one by one. So, the plan is that this guide will help us to improve and automate this type of work, making the most of our computers.
 
+It's also worth mentioning that many of the tools and steps we'll use depend on the needs of our analysis, so they might change a bit, but don't worry, the methodology is always the same.
 
+--------------
 
----
+# Step-by-step walkthrough
 
-## MATERIALS AND METHODS
-
-An integrative phylogenetic approach was employed to reconstruct the evolutionary relationships among species within the studied group by combining mitochondrial and nuclear gene sequences alongside robust statistical methods. Mitochondrial gene sequences (COI and Cytb) and nuclear gene sequences (Chd1, Dby, and Usp9x) corresponding to *Rhynchonycteris naso* and the outgroup *Cyttarops alecto* were retrieved from the NCBI database using the EDirect toolkit in FASTA format. To ensure data consistency and minimize errors during analysis, all sequences were manually curated to standardize taxonomic
-nomenclature. Multiple sequence alignment was then performed using MUSCLE v3.8.31, optimizing the identification of homologous regions across samples
