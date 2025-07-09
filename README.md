@@ -34,7 +34,7 @@ Finally, we will combine the gene trees using Astral and then use Iqtree again t
 All the necessary scripts are in the Scripts folder, and the programs we are going to use are in the Programs folder. I'm going to explain how each of these processes works, step by step.In this tutorial, we're going to work with five different scripts. Each one will be used to calculate the Gene Concordance Factor (gCF).
 
 -----
-*Note:* This analysis was performed using Shell as programming language. 
+####### *Note:* This analysis was performed using Shell as programming language. 
 -----
 
 ### Part 1: Downloading the sequences from NCBI
@@ -50,7 +50,7 @@ mkdir Fasta
 #### Now, let's download the markers from NCBI.
 
 -----
-*Note:* At NCBI there are two databases in which the sequences are stored, one for mitochondrial or chloroplastic sequences and one for autosomal sequences. Don't worry, though, because lots of the authors who upload these sequences to the cloud do so in the mitochondrial database. This means that so much of this information is available in this directory and not in the other. For that reason all sequences are going to be downloaded from the mitogenomic material directory.
+####### *Note:* At NCBI there are two databases in which the sequences are stored, one for mitochondrial or chloroplastic sequences and one for autosomal sequences. Don't worry, though, because lots of the authors who upload these sequences to the cloud do so in the mitochondrial database. This means that so much of this information is available in this directory and not in the other. For that reason all sequences are going to be downloaded from the mitogenomic material directory.
 -----
 
 
