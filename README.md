@@ -76,3 +76,33 @@ do
 	cat ${gen}_*.fasta > ${gen}.fasta
 done
 ```
+=====
+
+### Part 3: Alinear las secuencias y hacer los árboles de genes
+
+* Primero tenemos que alinear las secuencias que editamos previamente, usando el programa muscle que está en la carpeta Programs
+```
+cd Fasta
+for x in *.fasta
+do
+../Programs/muscle3.8.31_i86linux64 -in $x -out muscle_$x
+done
+```
+
+* Ahora descargamos Iqtree en el ambiente de trabajo
+```
+module load iqtree/2.2.2.6
+```
+
+* Para hacer las filogenias individuales de los genes, elegimos un modelo evolutivo, segun nuestras necesidades, en este caso usamos los modelos establecidos previamente por [Biganzoli-Rangel et al., 2023](https://doi.org/10.1371/journal.pone.0285271)
+
+```
+iqtree2 -s muscle_COI.fasta -m GTR+I
+iqtree2 -s muscle_Cytb.fasta -m HKY+I+G
+iqtree2 -s muscle_Dby.fasta -m GTR+I
+iqtree2 -s muscle_Chd1.fasta -m HKY+I
+iqtree2 -s muscle_Usp9x.fasta -m HKY+I
+```
+-----
+###### *Note:* Para correr los árboles de genes no es obligatorio elegir los modelos evolutivos para correr los árboles, se puede hacer con el modelo que elige Iqtree por default  
+-----
