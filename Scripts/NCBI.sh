@@ -9,7 +9,7 @@ do
 for org in "${organisms[@]}"
 do
     /u/scratch/d/dechavez/Bioinformatica-PUCE/MastBio/edirect/esearch -db nuccore -query "$mito[Gene] AND $org[Organism]" | \
-    /u/scratch/d/dechavez/Bioinformatica-PUCE/MastBio/edirect/efetch -format fasta > "Genes/${mito}_${org}.fasta"
+    /u/scratch/d/dechavez/Bioinformatica-PUCE/MastBio/edirect/efetch -format fasta > "Fasta/${mito}_${org}.fasta"
 done
 done
 
