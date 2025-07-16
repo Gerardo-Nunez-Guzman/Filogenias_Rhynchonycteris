@@ -146,9 +146,9 @@ Again, the analysis will give us several output files, but the one we care about
 -----
 ###### *Note:* To keep things organized and avoid mistakes during the analysis, it’s a good idea to create folders to sort all your files.
 -----
------
-![Final Tree](/c/Users/pc1/Desktop/Gerardo/WhatsApp-Image-2025-07-01-at-18.png)
------
+
+![Final Tree](/c/Users/pc1/Desktop/Filogenias_Rhynchonycteris/FinalTree/FinalTree.png)
+
 
 All the programs used in this tutorial are available on GitHub. If they’re not already installed on the supercomputer, you can download them from the internet and use them for free.
 
